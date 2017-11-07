@@ -1,25 +1,13 @@
+/**
+ * Examples of conditional statements
+ */
 public class ConditionalExample {
 
-	public static void main(String[] args) {
-		ConditionalExample myConditionalExample = new ConditionalExample();
-
-		System.out.println("Calculate the reciprocal.");
-		myConditionalExample.calculateReciprocal(8);
-		myConditionalExample.calculateReciprocal(0);
-
-		System.out.println("\nIs the number negative or positive?");
-		myConditionalExample.isNumberNegPos(-134);
-		myConditionalExample.isNumberNegPos(0);
-		myConditionalExample.isNumberNegPos(12);
-
-		System.out.println("\nWhat day of the week is it?");
-		myConditionalExample.dayOfTheWeek(1);
-		myConditionalExample.dayOfTheWeek(3);
-		myConditionalExample.dayOfTheWeek(13);
-
-		myConditionalExample.nestedConditionalExample();
-	}
-
+	/**
+	 * Calculates the reciprocal of the argument.
+	 * If argument is 0 the reciprocal will not be calculated.
+	 * @param number
+	 */
 	public void calculateReciprocal(double number) {
 		if (number != 0) {
 			System.out.println("The reciprocal of " + number + " is " + 1 / number);
@@ -28,6 +16,10 @@ public class ConditionalExample {
 		}
 	}
 
+	/**
+	 * Determines if the argument is positive, negative, or zero.
+	 * @param number
+	 */
 	public void isNumberNegPos(double number) {
 		if (number > 0) {
 			System.out.println(number + " is positive");
@@ -38,6 +30,11 @@ public class ConditionalExample {
 		}
 	}
 
+	/**
+	 * Uses switch statement to print name of the weekday for the
+	 * provided argument. First day of the week is Sunday.
+	 * @param dayOfWeek
+	 */
 	public void dayOfTheWeek(int dayOfWeek) {
 		switch (dayOfWeek) {
 			case 1:
@@ -66,6 +63,9 @@ public class ConditionalExample {
 		}
 	}
 
+	/**
+	 * Example of nested conditional statements
+	 */
 	public void nestedConditionalExample() {
 		for (int i = 0; i < 100; i++) {
 			if ((i % 2) == 0) {

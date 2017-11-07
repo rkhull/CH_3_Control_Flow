@@ -1,12 +1,11 @@
+/**
+ * Examples of the Break statement
+ */
 public class BreakExample {
 
-	public static void main(String[] args) {
-		BreakExample myBreakExample = new BreakExample();
-
-		myBreakExample.breakOutOfLoop();
-		myBreakExample.breakAsGoTo();
-	}
-
+	/**
+	 * Example of breaking out of a loop
+	 */
 	public void breakOutOfLoop() {
 		for (int i = 0; i < 50; i++) {
 			if (i == 40) {
@@ -18,6 +17,9 @@ public class BreakExample {
 		}
 	}
 
+	/**
+	 * Example of break statement as a goto
+	 */
 	public void breakAsGoTo() {
 		int i = 0;
 		characterLoop:

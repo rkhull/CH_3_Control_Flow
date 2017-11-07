@@ -1,14 +1,12 @@
+/**
+ * Examples of loop statements
+ */
 public class LoopExample {
 
-	public static void main(String[] args) {
-		LoopExample myLoopExample = new LoopExample();
-
-//		System.out.println("The sum of one through ten is: " + myLoopExample.sumOneThroughTen());
-//		myLoopExample.randomSum();
-//		myLoopExample.doRandomSum();
-		myLoopExample.twoDimensionalArray();
-	}
-
+	/**
+	 * Example of for loop
+	 * @return sum of values one through ten
+	 */
 	public int sumOneThroughTen() {
 		int sum = 0;
 		for (int i = 1; i <= 10; i++) {
@@ -17,6 +15,10 @@ public class LoopExample {
 		return sum;
 	}
 
+	/**
+	 * Example of while loop
+	 * Sums random numbers until sum exceeds 1000
+	 */
 	public void randomSum() {
 		int sum = 0;
 		while (sum < 1000) {
@@ -27,6 +29,10 @@ public class LoopExample {
 		System.out.println("The sum is: " + sum);
 	}
 
+	/**
+	 * Example of do-while loop
+	 * Sums random numbers until sum exceeds 1000
+	 */
 	public void doRandomSum() {
 		int sum = 0;
 		do {
@@ -38,6 +44,10 @@ public class LoopExample {
 		System.out.println("The sum is: " + sum);
 	}
 
+	/**
+	 * Example of nested loops
+	 * Iteration over a two dimensional array
+	 */
 	public void twoDimensionalArray() {
 		int numRows = 5;
 		int numColumns = 10;
