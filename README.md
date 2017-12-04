@@ -1,6 +1,7 @@
 CH_3_Control_Flow
 
-This project provides exercises for Chapter 3 of Java A Beginner's Guide by Herbert Schildt. Create a branch of this porject 
-and complete the exercises. You can check your work by running the test cases.
+Fork this project and clone locally. 
+Uncomment, the tests and write the code necessary to get them to pass. 
+These exercises cover Chapter 3: Control Flow of Java A Beginner's Guide by Herbert Schildt.
 
 
