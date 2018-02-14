@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class NumbersTest {
 
-	/*@Test
+	@Test
 	public void numberIsPositive() {
 		assertEquals("Positive", Numbers.isNumberNegPos(10));
 	}
@@ -17,5 +17,5 @@ public class NumbersTest {
 	@Test
 	public void numberIsZero() {
 		assertEquals("Zero", Numbers.isNumberNegPos(0));
-	}*/
+	}
 }

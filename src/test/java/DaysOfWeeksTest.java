@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class DaysOfWeeksTest {
 
-	/*@Test
+	@Test
 	public void daysOfWeek() {
 		assertEquals("Sunday", DaysOfWeeks.dayOfTheWeek(1));
 		assertEquals("Monday", DaysOfWeeks.dayOfTheWeek(2));
@@ -20,5 +20,5 @@ public class DaysOfWeeksTest {
 		assertEquals("Invalid Entry", DaysOfWeeks.dayOfTheWeek(0));
 		assertEquals("Invalid Entry", DaysOfWeeks.dayOfTheWeek(-2));
 		assertEquals("Invalid Entry", DaysOfWeeks.dayOfTheWeek(8));
-	}*/
+	}
 }

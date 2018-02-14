@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class SummationTest {
 
-	/*@Test
+	@Test
 	public void sumOneThroughTen() {
 		assertEquals(55, Summation.sumNumbers(1, 10));
 	}
@@ -27,6 +27,6 @@ public class SummationTest {
 	@Test
 	public void sumEndNeg() {
 		assertEquals(-15, Summation.sumNumbers(3, -6));
-	}*/
+	}
 
 }
